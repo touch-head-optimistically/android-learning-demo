@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+     >
+
+     <!--传统动画需要的承载控件，动画文件放在该控件background属性里  -->
+    <ImageView 
+        android:id="@+id/ps2"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+       android:background="@drawable/rocket"
+        android:layout_alignParentBottom="TRUE"
+        />
+     <ImageView 
+        android:id="@+id/ps3"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+       android:background="@drawable/boom"
+        />
+    <Button
+        android:id="@+id/fire"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="发射"
+        android:background="#0cffff"
+        android:layout_margin="10dp"
+        
+        />
+    <Button 
+        android:id="@+id/open"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@+id/fire"
+        android:layout_alignParentBottom="true"
+        android:text="点火"
+        android:background="#0cffff"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>

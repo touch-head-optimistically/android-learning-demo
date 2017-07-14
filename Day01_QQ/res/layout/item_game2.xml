@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="22sp"
+        android:text="subject"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/subject"
+        >
+        <TextView 
+        android:id="@+id/summary"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="summary"
+        android:textColor="#919191"
+        android:layout_weight="5"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+    <ImageView 
+        android:id="@+id/pic"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher"
+        android:layout_weight="2"
+        android:layout_marginRight="5dp"
+        />
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/format"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="视频"
+        android:textSize="15sp"
+        android:textColor="#00008B"
+        android:layout_below="@+id/linear"
+        android:paddingLeft="5dp"
+        />
+    
+    <TextView 
+        android:id="@+id/changed"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="2015-11-07 14:35:22"
+        android:textColor="#919191"
+        android:layout_below="@+id/linear"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <ImageView 
+        android:id="@+id/pic1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="True"
+     android:src="@drawable/chenge1"
+  
+        />
+    <ImageView 
+        android:id="@+id/pic2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chenge2"
+        android:layout_toRightOf="@+id/pic1"
+        />
+    
+    <ImageView 
+        android:id="@+id/pic3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chenge3"
+        android:layout_toRightOf="@+id/pic2"
+        />
+    <ImageView 
+        android:id="@+id/pic4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pic1"
+        android:src="@drawable/chenge5"
+        
+        />
+    
+    <ImageView 
+        android:id="@+id/pic5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chenge3"   
+        android:layout_toRightOf="@+id/pic4"
+     
+        
+        />
+    
+    <ImageView 
+        android:id="@+id/pic6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chenge3"
+           android:layout_toRightOf="@+id/pic5"
+        
+        />
+    
+    <ImageView 
+        android:id="@+id/pic7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chenge4"
+        android:layout_below="@+id/pic4"
+        
+        
+        />
+    
+    <ImageView 
+        android:id="@+id/pic8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chenge5"
+           android:layout_toRightOf="@+id/pic7"
+        
+        />
+     <ImageView 
+        android:id="@+id/pic9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chenge5"
+        android:layout_toRightOf="@+id/pic8"
+          
+        
+        />
+    
+    
+
+
+</RelativeLayout>

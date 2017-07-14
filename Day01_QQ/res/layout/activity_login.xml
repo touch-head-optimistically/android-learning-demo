@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <LinearLayout 
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_login"
+        >
+       
+        <Button 
+        android:id="@+id/btn_game1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/mt_on"
+        android:text="JD外卖"
+        android:padding="5dp"
+        android:background="@android:color/transparent"
+        />
+        
+        <Button 
+        android:id="@+id/btn_game2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/sina_off"
+        android:text="JD新闻"
+        android:padding="5dp"
+        android:background="@android:color/transparent"
+        />
+        
+        <Button 
+        android:id="@+id/btn_game3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/dota_off"
+        android:text="JD老虎机"
+        android:padding="5dp"
+        android:background="@android:color/transparent"
+        />
+    </LinearLayout>
+	
+    <FrameLayout 
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigation"
+        ></FrameLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView 
+        android:id="@+id/ps"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:src="@drawable/a2"
+       
+    />
+     <ImageView 
+        android:id="@+id/ps2"
+        android:layout_height="120dp"
+        android:layout_width="150dp"
+        android:src="@drawable/c1"
+        android:layout_alignRight="@+id/say"
+        android:layout_below="@+id/say"
+        android:layout_marginTop="20dp"/> 
+    
+    <Button
+        
+        android:id="@+id/btn_2"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:text="good"
+        android:background="#ffff00"
+        android:layout_alignParentBottom="TRUE"
+        android:layout_alignParentLeft="TRUE"
+        />
+ 
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="碧君" 
+        android:layout_toRightOf="@+id/ps"/>
+    <TextView
+        android:id="@+id/say"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="呵呵,猜猜这帅哥是谁？" 
+         android:layout_toRightOf="@+id/ps"
+         android:layout_alignBottom="@+id/ps"
+         />
+   
+ 
+</RelativeLayout>
+  
+  

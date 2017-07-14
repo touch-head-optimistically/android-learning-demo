@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView 
+        android:id="@+id/item_icon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/ic_launcher"
+        />
+    
+    <TextView 
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="安卓"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/item_icon"
+        android:layout_marginLeft="15dp"
+        />
+    
+    <TextView 
+        android:id="@+id/item_word"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:text="哈哈哈哈哈哈"
+        android:layout_below="@+id/item_name"
+        android:layout_alignLeft="@+id/item_name"
+        android:layout_alignBottom="@+id/item_icon"
+        />
+
+</RelativeLayout>

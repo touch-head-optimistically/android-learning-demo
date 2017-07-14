@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ysw793377164.day01_qq"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+	<uses-permission  android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="JD外卖盒子"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ysw793377164.day01_qq.Main"
+            android:label="JD外卖盒子" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" ></activity>
+        <activity android:name=".RegisterActivity" ></activity>
+        <activity android:name=".LoginActivity" ></activity>
+        <activity android:name=".Game1_Main" ></activity>
+        <activity android:name=".Game3_Main" ></activity>
+        <activity android:name=".Game3_Bet" ></activity>
+    </application>
+
+</manifest>

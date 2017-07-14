@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/breath_0001">
+    <ImageView 
+        android:id="@+id/picbreath"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+       android:background="@drawable/breath"
+       android:visibility="invisible"
+        />
+      <ImageView 
+        android:id="@+id/picfart"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+       android:background="@drawable/fart"
+       android:visibility="invisible"
+        />
+       <ImageView 
+        android:id="@+id/piclook"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+       android:background="@drawable/look"
+       android:visibility="invisible"
+        />
+       <ImageView 
+        android:id="@+id/picpoke"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+       android:background="@drawable/poke"
+       android:visibility="invisible"
+        />
+<Button 
+    android:id="@+id/breath1"
+    android:layout_height="40dp"
+    android:layout_width="100dp"
+  
+    android:layout_marginTop="230dp"
+       android:layout_alignParentLeft="true"
+       android:layout_marginLeft="190dp"
+ android:background="@android:color/transparent"
+  
+    />
+<Button 
+    android:id="@+id/fart1"
+    android:layout_height="60dp"
+    android:layout_width="60dp"
+   
+   android:layout_marginTop="600dp"
+   android:layout_marginLeft="220dp"
+    android:background="@android:color/transparent"
+    />
+
+   <Button
+       android:id="@+id/poke1"
+       android:layout_width="60dp"
+       android:layout_height="60dp"
+      android:layout_marginTop="180dp"
+   
+       android:background="@android:color/transparent"
+       
+       />
+
+   <Button
+       android:id="@+id/look1"
+             android:layout_width="100dp"
+       android:layout_height="60dp"
+  android:layout_marginTop="180dp"
+       android:layout_alignParentLeft="true"
+       android:layout_marginLeft="190dp"
+    
+       android:background="@android:color/transparent"
+       />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

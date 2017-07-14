@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+       android:layout_weight="3"
+       android:layout_margin="5dp"
+    >
+        <ImageButton
+            android:id="@+id/b11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p1"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp" />
+       
+
+        <ImageButton
+            android:id="@+id/b12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p2"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+
+        <ImageButton
+            android:id="@+id/b13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p3"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+       android:layout_weight="3"
+       android:layout_margin="5dp"
+    >
+        <ImageButton
+            android:id="@+id/b21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p4"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp" />
+       
+
+        <ImageButton
+            android:id="@+id/b22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p5"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/b23"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p5"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+       android:layout_weight="3"
+       android:layout_margin="5dp"
+    >
+      
+        <ImageButton
+            android:id="@+id/b31"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p6"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp" />
+       
+
+        <ImageButton
+            android:id="@+id/b32"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p7"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+
+        <ImageButton
+            android:id="@+id/b33"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/p8"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    >
+          
+          <Button 
+           android:id="@+id/btn_1"
+           android:layout_height="match_parent"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_marginLeft="5dp"
+           android:text="下注"
+           />
+          <Button 
+           android:id="@+id/btn_2"
+           android:layout_height="match_parent"
+           android:layout_width="0dp"
+         android:layout_weight="1"
+           android:layout_marginRight="5dp"
+           android:text="开始"
+           />
+         
+     
+</LinearLayout >
+<LinearLayout
+       android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="1" 
+    android:layout_margin="5dp">
+     <TextView 
+        android:id="@+id/textmoney"
+           android:layout_height="30dp"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:textSize="20dp"
+           android:text="100000金币"    
+           android:gravity="center_horizontal"
+     />
+</LinearLayout>
+
+
+</LinearLayout>
+

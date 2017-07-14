@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity" >
+    <LinearLayout 
+        android:id="@+id/choice"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+   <Button 
+       android:id="@+id/mes"
+     android:layout_weight="1"
+       android:layout_width="50dp"
+      android:layout_height="match_parent"
+       android:text="消息"
+       android:drawablePadding="10dp"
+       android:padding="5dp"
+      android:gravity="center_horizontal"
+         android:background="#00ffff"
+       android:drawableTop="@drawable/p1"
+       />
+      <Button 
+       android:id="@+id/zone"
+       android:layout_weight="1"
+       android:layout_width="50dp"
+       android:layout_height="match_parent"
+       android:text="动态"
+       android:drawablePadding="10dp"
+       android:padding="5dp"
+          android:background="#00ffff"
+      android:gravity="center_horizontal"
+       android:drawableTop="@drawable/p2"
+       />
+        
+         <Button 
+       android:id="@+id/friend"
+          android:layout_weight="1"
+       android:layout_width="50dp"
+       android:layout_height="match_parent"
+       android:text="联系人"
+       android:background="#00ffff"
+       android:drawablePadding="10dp" 
+       android:padding="5dp" 
+      android:gravity="center_horizontal"
+       android:drawableTop="@drawable/p3"
+       />
+   </LinearLayout>
+<!--  可不断填充，但是只显示1层-->
+<FrameLayout 
+    android:id="@+id/fragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_above="@+id/choice"
+    ></FrameLayout>
+
+
+</RelativeLayout>

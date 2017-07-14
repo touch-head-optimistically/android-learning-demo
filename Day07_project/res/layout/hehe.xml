@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+ <TextView 
+     android:id="@+id/title"
+     android:layout_height="30dp"
+     android:layout_width="match_parent"
+     android:textSize="18sp"
+     android:textColor="#F4A460"
+     android:text="后天回家"
+     android:layout_marginLeft="10dp"
+     />
+ <LinearLayout 
+     android:id="@+id/linear"
+     android:layout_height="80dp"
+     android:layout_width="match_parent"
+    android:layout_below="@+id/title"
+
+     >
+      <TextView 
+     android:id="@+id/content"
+     android:layout_height="match_parent"
+     android:layout_width="0dp"
+     android:layout_weight="2"
+     android:text="实训结束"
+         android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+     />
+      <ImageView 
+          android:id="@+id/image"
+          android:layout_height="60dp"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_margin="10dp"
+          android:src="@drawable/ic_launcher"
+          />
+     
+     
+     
+ </LinearLayout>
+ <TextView 
+     android:id="@+id/time"
+     android:layout_height="5dp"
+     android:layout_width="match_parent"
+     android:layout_below="@+id/linear"
+     android:layout_alignParentRight="true"
+     android:layout_marginRight="10dp"
+     android:text="2001 "
+     />
+ 
+ 
+</RelativeLayout>
