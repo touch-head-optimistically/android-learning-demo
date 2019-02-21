@@ -1,2 +1,2 @@
 # my-android-learning
-a android demo during 2015
+a android demo studying in NJUPT during 2015 
